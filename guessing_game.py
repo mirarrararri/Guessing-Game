@@ -1,3 +1,4 @@
+#Input
 name = input("Enter Your Name: ")
 print(f"Welcome to Guessing Game!, {name}")
 
@@ -17,4 +18,5 @@ while lives > 0:
         else:
             print(f"Live: {lives} left")
 else:
+
     print("\nMessage: Sorry you only have 3 lives")
